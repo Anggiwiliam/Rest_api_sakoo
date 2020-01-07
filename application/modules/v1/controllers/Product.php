@@ -45,7 +45,7 @@ class Product extends REST_Controller {
                 $this->response([
                     'status' => TRUE,
                     'id' => $id,
-                    'message' => 'deleted.'
+                    'message' => 'The item has been deleted.'
                 ], REST_Controller::HTTP_OK);
             } else {
                 $this->response([

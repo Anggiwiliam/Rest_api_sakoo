@@ -27,11 +27,11 @@ CREATE TABLE `barang` (
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `update_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id_product`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
 
 /*Data for the table `barang` */
 
-insert  into `barang`(`id_product`,`name`,`description`,`price`,`created_at`,`update_at`) values (1,'sabun','sabun mandi',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(2,'minyak','minyak goreng',10000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(7,'sunlight mama lemon','sabun cuci piring',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(8,'sunlight mama le','sabun cuci piring',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(9,'Aqua 500ml','minuman botol',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(11,'ades 500ml','minuman botol',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(12,'ades 1000ml','minuman botol',7000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(14,'aqua 1000ml','minuman botol',7000,'2020-01-06 00:00:00','2020-01-06 00:00:00');
+insert  into `barang`(`id_product`,`name`,`description`,`price`,`created_at`,`update_at`) values (1,'Shinzui','sabun mandi',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(2,'Sari murni','minyak goreng',10000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(7,'sunlight','sabun cuci piring',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(8,'mama lemon','sabun cuci piring',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(9,'Aqua 500ml','minuman botol',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(11,'ades 500ml','minuman botol',5000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(12,'ades 1000ml','minuman botol',7000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(14,'aqua 1000ml','minuman botol',7000,'2020-01-06 00:00:00','2020-01-06 00:00:00'),(15,'Coca-cola 1000ml','minuman botol',15000,'2020-01-07 00:00:00','2020-01-07 00:00:00'),(17,'Le mineral 1000ml','minuman botol',15000,'2020-01-07 00:00:00','2020-01-07 00:00:00'),(18,'Fanta 1000ml','minuman botol',15000,'2020-01-07 00:00:00','2020-01-07 00:00:00');
 
 /*Table structure for table `users` */
 
